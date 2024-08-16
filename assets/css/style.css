@@ -77,6 +77,32 @@ nav{
     color: #1e2326;
 }
 */
+
+
+.mis-estudios{
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Cambia la dirección a columna */
+    justify-content: center; /* Centra verticalmente */
+    height: 100%;
+    
+}
+
+.mis-estudios h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0;
+    line-height: 10;
+}
+.mis-estudios {
+    padding-top: 100px; /* Posiciona el texto más cerca del centro del área roja */
+}
+
+
 .resumen img{
     width: 30rem;
     border-radius: 50%;
