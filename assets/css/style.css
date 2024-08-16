@@ -1,7 +1,12 @@
-*{
+html, body{
+    height: 100%;
     margin: 0;
     padding: 0;
 }
+
+
+
+
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -123,9 +128,34 @@ nav{
     gap: 2rem;
 }
 
-footer{
-    background-color: #1e2326;
-    color: #D6E4E5;
+
+
+footer {
+    background-color: #212529;
+    color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #adb5bd;
+}
+
+footer .contact-info {
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* MEDIAS QUERIES */
